@@ -2,7 +2,7 @@
  * File Name: app.js
  * Author: Mohammed Juned Ahmed
  * Website Name: https://comp308assignment1.herokuapp.com/
- * File Description:
+ * File Description: The Express server configuration file that load up first.
  */
 
 var express = require('express');
@@ -57,4 +57,5 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
+// used to return application module
 module.exports = app;
