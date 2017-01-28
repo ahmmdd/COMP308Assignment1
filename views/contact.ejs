@@ -8,13 +8,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><%= title %></title>
-
-    <!-- CSS stylesheets -->
-    <link rel="stylesheet" href="/stylesheets/bootstrap.min.css">
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <% include ./partials/head %>
   </head>
   <body>
     <div class="content container">
@@ -22,7 +16,6 @@
       <p>Welcome to <%= title %></p>
     </div>      
     <!-- JS Scripts -->
-    <script src="/javascripts/jquery-3.1.1.min.js"></script>
-    <script src="/javascripts/bootstrap.min.js"></script>
+    <% include ./partials/jsscripts %>
   </body>
 </html>

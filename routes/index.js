@@ -7,7 +7,7 @@
 
 var express = require('express');
 var router = express.Router();
-
+//++++++++++++++++++++++++++++ Templates +++++++++++++++++++++++++++++++++++
 /* 1. GET services page. */
 router.get('/services', function(req, res, next) {
   res.render('services', { title: 'Services', 
@@ -34,8 +34,10 @@ router.get('/about', function(req, res, next) {
 
 /* 5. GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express Portfolio Site', 
+  res.render('index', { title: 'Home', 
                         name: 'Mohammed Juned Ahmed' });
 });
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 module.exports = router;

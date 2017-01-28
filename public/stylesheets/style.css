@@ -4,3 +4,8 @@
  * Website Name: https://comp308assignment1.herokuapp.com/
  * File Description: This is custom Style Sheet.
  */
+
+.right {
+    float: right;
+    width: 175px;
+}
