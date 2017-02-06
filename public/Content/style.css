@@ -15,8 +15,16 @@
     height: auto;
 }
 
-footer{
-    background-color: slategray;
-    display: table-row;
-    height: 1px;
+.footer{
+    padding-top: 0.5em;
+    padding-right: 2em;
+    text-align: right;
+    color: #FDF3E7;
+}
+body{
+    background-color: #FDF3E7;
+}
+.jumbotron{
+    background-color: #062F4F;
+    color: #FDF3E7;
 }
