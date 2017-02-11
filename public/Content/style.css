@@ -32,3 +32,10 @@ body{
     background-color: #062F4F;
     color: #FDF3E7;
 }
+
+#floatRight {
+  width:20em;
+  float:right;
+  padding:0;
+  margin: 0 0 10px 10px;
+}
