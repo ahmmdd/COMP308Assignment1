@@ -22,8 +22,12 @@
     color: #FDF3E7;
 }
 body{
-    background-color: #FDF3E7;
+  padding-top: 50px;
+  background-color: #FDF3E7;
 }
+
+@media (max-width: 979px) { body { padding-top: 0px; } }
+
 .jumbotron{
     background-color: #062F4F;
     color: #FDF3E7;
